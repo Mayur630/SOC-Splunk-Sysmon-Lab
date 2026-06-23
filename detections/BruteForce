@@ -1,0 +1,25 @@
+Brute Force Detection
+
+Event ID
+4625
+
+Severity
+Medium
+
+Purpose
+Detect repeated failed login attempts.
+
+SPL Query
+EventCode=4625
+
+Investigation Steps
+1. Identify affected user account.
+2. Review number of failures.
+3. Determine source system.
+4. Validate if activity is expected.
+
+MITRE ATT&CK
+T1110 - Brute Force
+
+Recommendation
+Monitor account activity and review authentication attempts.
