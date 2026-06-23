@@ -1,0 +1,25 @@
+User Account Creation Detection
+
+Event ID
+4720
+
+Severity
+High
+
+Purpose
+Detect creation of local user accounts.
+
+SPL Query
+EventCode=4720
+
+Investigation Steps
+1. Identify created account.
+2. Determine who created the account.
+3. Verify business justification.
+4. Review subsequent activity.
+
+MITRE ATT&CK
+T1136.001 - Local Account
+
+Recommendation
+Review legitimacy of newly created accounts.
