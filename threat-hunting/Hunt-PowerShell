@@ -1,0 +1,16 @@
+Threat Hunt - PowerShell Activity
+
+Objective
+Identify suspicious PowerShell usage.
+
+SPL Query
+EventCode=1 Image="*powershell.exe"
+
+Hunt Focus
+* ExecutionPolicy Bypass
+* Hidden PowerShell
+* Unusual parent processes
+* Administrative scripts
+
+Expected Outcome
+Identify suspicious PowerShell activity requiring investigation.
