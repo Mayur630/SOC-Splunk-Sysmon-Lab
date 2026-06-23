@@ -1,0 +1,25 @@
+DNS Query Detection
+
+Sysmon Event ID
+22
+
+Severity
+Medium
+
+Purpose
+Detect DNS lookup activity.
+
+SPL Query
+EventCode=22
+
+Investigation Steps
+1. Review queried domain.
+2. Review source process.
+3. Check for unusual domains.
+4. Correlate with network activity.
+
+MITRE ATT&CK
+T1071 - Application Layer Protocol
+
+Recommendation
+Investigate suspicious DNS activity.
