@@ -1,0 +1,19 @@
+MITRE ATT&CK Mapping
+
+Detection            | Event ID  | ATT&CK Technique |
+-------------------- | --------- | ---------------- |
+Failed Login         | 4625      | T1110            |
+User Creation        | 4720      | T1136.001        |
+Privilege Escalation | 4732      | T1098            |
+PowerShell Execution | Sysmon 1  | T1059.001        |
+Network Connection   | Sysmon 3  | T1071            |
+DNS Query            | Sysmon 22 | T1071            |
+
+Coverage
+* Credential Access
+* Persistence
+* Privilege Escalation
+* Execution
+* Command and Control
+
+This project demonstrates detection and investigation of multiple ATT&CK techniques using Splunk and Sysmon.
