@@ -1,0 +1,22 @@
+Incident 02 - Persistence and Privilege Escalation
+
+Summary
+A local user account was created and later added to the Administrators group.
+
+Evidence
+Event ID 4720
+Event ID 4732
+
+Timeline
+- User account created
+- User added to Administrators group
+
+Impact
+Potential unauthorized administrative access.
+
+MITRE ATT&CK
+T1136.001 - Local Account
+T1098 - Account Manipulation
+
+Recommendation
+Review account legitimacy and remove unauthorized privileges.
