@@ -1,0 +1,25 @@
+PowerShell Execution Detection
+
+Sysmon Event ID
+1
+
+Severity
+High
+
+Purpose
+Detect PowerShell execution activity.
+
+SPL Query
+EventCode=1 Image="*powershell.exe"
+
+Investigation Steps
+1. Review command line.
+2. Review parent process.
+3. Identify user.
+4. Check related network activity.
+
+MITRE ATT&CK
+T1059.001 - PowerShell
+
+Recommendation
+Investigate suspicious PowerShell usage.
