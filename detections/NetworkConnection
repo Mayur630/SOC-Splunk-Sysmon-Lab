@@ -1,0 +1,25 @@
+Network Connection Detection
+
+Sysmon Event ID
+3
+
+Severity
+Medium
+
+Purpose
+Detect outbound network connections.
+
+SPL Query
+EventCode=3
+
+Investigation Steps
+1. Review destination IP.
+2. Review destination port.
+3. Review initiating process.
+4. Check user context.
+
+MITRE ATT&CK
+T1071 - Application Layer Protocol
+
+Recommendation
+Investigate unusual outbound traffic.
