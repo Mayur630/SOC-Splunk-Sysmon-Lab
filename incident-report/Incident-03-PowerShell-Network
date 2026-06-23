@@ -1,0 +1,24 @@
+Incident 03 - PowerShell and Network Activity Investigation
+
+Summary
+PowerShell activity was observed followed by network and DNS activity.
+
+Evidence
+Sysmon Event ID 1
+Sysmon Event ID 3
+Sysmon Event ID 22
+
+Activity
+PowerShell Execution
+Network Connection
+DNS Query
+
+Impact
+Potential scripted administrative or attacker activity.
+
+MITRE ATT&CK
+T1059.001 - PowerShell
+T1071 - Application Layer Protocol
+
+Recommendation
+Review command line execution and associated network activity.
