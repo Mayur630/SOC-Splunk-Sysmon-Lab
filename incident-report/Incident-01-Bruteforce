@@ -1,0 +1,20 @@
+Incident 01 - Brute Force Login Investigation
+
+Summary
+Multiple failed login attempts were detected.
+
+Evidence
+Event ID 4625
+
+Timeline
+* Failed login attempt detected
+* Additional failed login attempts observed
+
+Impact
+Potential password guessing activity.
+
+MITRE ATT&CK
+T1110 - Brute Force
+
+Recommendation
+Monitor account activity and investigate authentication attempts.
