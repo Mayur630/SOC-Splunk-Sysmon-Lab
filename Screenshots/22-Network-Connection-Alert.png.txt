@@ -1,0 +1,10 @@
+Alert Name
+Network Connection Detection
+Description
+Detect outbound network connections recorded by Sysmon.
+Alert Type
+Scheduled
+Schedule
+Every 5 minutes
+Trigger Condition
+Number of Results > 0
