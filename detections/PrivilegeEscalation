@@ -1,0 +1,25 @@
+Privilege Escalation Detection
+
+Event ID
+4732
+
+Severity
+Critical
+
+Purpose
+Detect users added to the Administrators group.
+
+SPL Query
+EventCode=4732
+
+Investigation Steps
+1. Identify added user.
+2. Review administrator group membership.
+3. Determine who performed the action.
+4. Investigate related events.
+
+MITRE ATT&CK
+T1098 - Account Manipulation
+
+Recommendation
+Validate administrative access requirements.
