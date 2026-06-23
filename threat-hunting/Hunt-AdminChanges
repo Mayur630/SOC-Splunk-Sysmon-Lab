@@ -1,0 +1,15 @@
+Threat Hunt - Administrative Group Changes
+
+Objective
+Identify unexpected administrator assignments.
+
+SPL Query
+EventCode=4732
+
+Hunt Focus
+* New administrators
+* Unauthorized access changes
+* Off-hours modifications
+
+Expected Outcome
+Identify suspicious privilege escalation activity.
