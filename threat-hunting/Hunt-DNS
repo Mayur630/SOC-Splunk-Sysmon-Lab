@@ -1,0 +1,15 @@
+Threat Hunt - DNS Activity
+
+Objective
+Identify unusual DNS queries.
+
+SPL Query
+EventCode=22
+
+Hunt Focus
+* Unusual domains
+* Excessive DNS activity
+* Suspicious lookups
+
+Expected Outcome
+Identify potentially malicious domain activity.
