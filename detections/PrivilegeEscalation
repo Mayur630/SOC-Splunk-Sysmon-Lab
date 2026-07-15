@@ -16,7 +16,7 @@ Investigation Steps
 1. Identify added user.
 2. Review administrator group membership.
 3. Determine who performed the action.
-4. Investigate related events.
+4. Investigate new user activity.
 
 MITRE ATT&CK
 T1098 - Account Manipulation
