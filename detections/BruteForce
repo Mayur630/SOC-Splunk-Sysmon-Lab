@@ -14,9 +14,9 @@ EventCode=4625
 
 Investigation Steps
 1. Identify affected user account.
-2. Review number of failures.
+2. Reviewed number of failures.
 3. Determine source system.
-4. Validate if activity is expected.
+4. Checked succesfull login and host activity 
 
 MITRE ATT&CK
 T1110 - Brute Force
